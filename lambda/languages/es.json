@@ -1,0 +1,51 @@
+{
+    "SKILL_NAME": "Tendencias de Twitter",
+    "WELCOME": [
+      " Bienvenido a {}. Pídeme las tendencias de un país específico o tweets sobre un tema. Para conocer más sobre lo que puedo hacer, prueba a decir ayuda."
+    ],
+    "ASK": [
+      " ¿Con qué puedo ayudarte?"
+    ],
+    "ASK_MORE": [
+      " ¿Con qué más ayudarte?"
+    ],
+    "COUNTRY_TRENDS": [
+      "Las tendencias de twitter {} son: "
+    ],
+    "TOPIC_TWEETS": [
+      "Los twits más relevantes sobre {} son: "
+    ],
+    "SAY": [
+      "dice",
+      "comenta",
+      "twitea"
+    ],
+    "REPEAT": [
+      "He dicho... {}"
+    ],
+    "REPEAT_REPROMPT": [
+      "{}"
+    ],
+    "HELP": [
+    "Prueba a pedirme las tendencias de un país específico. Por ejemplo, cuáles son las tendencias de españa. También, puedes probar a pedirme los últimos twits relevantes sobre un tema concreto. Por ejemplo, tendencias sobre messi."
+    ],
+    "HELP_REPROMPT": [
+      "¿Con qué puedo ayudarte?"
+    ],
+    "REFLECTOR": [
+      "Acabas de ejecutar {}. Estás escuchando esta respuesta porque el intent llamado: {}}s no tiene un intent handler aún."
+    ],
+    "FALLBACK": [
+      "Hmm, No estoy seguro. Prueba a pedirme las tendencias de un país específico o twitts sobre un tema. Si te encuentras algo perdido, di ayuda o cierra esta skill diciendo adios."
+    ],
+    "FALLBACK_REPROMPT": [
+      "No logré entenderlo. ¿Con qué puedo ayudarte?"
+    ],
+    "CANCEL_STOP_RESPONSE": [
+      "¡Hasta la próxima!",
+      "¡Adios!"
+    ],
+    "ENV_NOT_CONFIGURED": "The environment for this skill is not properly configured. Most likely, you just need to rename the example dot ENV file to just dot ENV. Please see the readme file for help.",
+    "ERROR": "Disculpa, algo ha fallado. Inténtalo de nuevo o di ayuda",
+    "ERROR_REPROMPT": "¿Puedes repetirlo?"
+}

@@ -1,0 +1,172 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "tendencias de twitter",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.RepeatIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+            "no",
+            "nada más",
+            "nada mas",
+            "nada"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "PlayPopularTopicTweets",
+          "slots": [
+            {
+              "name": "topic",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples": [
+            "qué pasó con {topic}",
+            "qué ha pasado con {topic}",
+            "que pasó con {topic}",
+            "que ha pasado con {topic}",
+            "busca {topic}",
+            "busca a {topic}",
+            "busca sobre {topic}",
+            "que se ha escrito sobre {topic}",
+            "qué se ha escrito sobre {topic}",
+            "di me las tendencias sobre {topic}",
+            "di me las tendencias de {topic}",
+            "di me los twits sobre {topic}",
+            "di me los ultimos twits sobre {topic}",
+            "di me qué pasó con {topic}",
+            "di me qué ha pasado con {topic}",
+            "di me que pasó con {topic}",
+            "di me que ha pasado con {topic}",
+            "di me sobre {topic}",
+            "di me los twits sobre {topic}",
+            "di me los ultimos twits sobre {topic}",
+            "dime los últimos twits sobre {topic}",
+            "dime sobre {topic}",
+            "dime las tendencias sobre {topic}",
+            "dime las tendencias de {topic}",
+            "dime sobre {topic}",
+            "dime qué pasó con {topic}",
+            "dime qué ha pasado con {topic}",
+            "dime que pasó con {topic}",
+            "dime que ha pasado con {topic}",
+            "dime los últimos twits sobre {topic}",
+            "dime los twits sobre {topic}",
+            "cuales son las tendencias sobre {topic}",
+            "cuáles son las tendencias sobre {topic}",
+            "di me las tendencias de {topic}",
+            "dime las tendencias de {topic}",
+            "sobre {topic}",
+            "que hay sobre {topic}",
+            "qué hay sobre {topic}",
+            "mensajes sobre {topic}",
+            "twits de {topic}",
+            "tendencias sobre {topic}",
+            "tuits sobre {topic}",
+            "twits sobre {topic}"
+          ]
+        },
+        {
+          "name": "PlayTrendsCountry",
+          "slots": [
+            {
+              "name": "country",
+              "type": "AMAZON.Country"
+            }
+          ],
+          "samples": [
+            "por qué se ha liado en twitter en {country}",
+            "se ha liado en twitter en {country}",
+            "di las tendencias en {country}",
+            "di las tendencias de {country}",
+            "di los trending topics en {country}",
+            "di los trending topics de {country}",
+            "di el trending topic en {country}",
+            "di el trending topic de {country}",
+            "di las tendencias actuales en {country}",
+            "di las tendencias actuales de {country}",
+            "dime las tendencias en {country}",
+            "dime las tendencias de {country}",
+            "dime los trending topics en {country}",
+            "dime los trending topics de {country}",
+            "dime el trending topic en {country}",
+            "dime el trending topic de {country}",
+            "dime las tendencias actuales en {country}",
+            "dime las tendencias actuales de {country}",
+            "di me las tendencias en {country}",
+            "di me las tendencias de {country}",
+            "di me los trending topics en {country}",
+            "di me los trending topics de {country}",
+            "di me el trending topic en {country}",
+            "di me el trending topic de {country}",
+            "di me las tendencias actuales en {country}",
+            "di me las tendencias actuales de {country}",
+            "que tendencias hay en {country}",
+            "que tendencias hay de {country}",
+            "que tendencias hay en twitter {country}",
+            "que tendencias actuales hay en {country}",
+            "que tendencias actuales hay de {country}",
+            "qué tendencias hay en {country}",
+            "qué tendencias hay de {country}",
+            "qué tendencias hay en twitter {country}",
+            "qué tendencias actuales hay en {country}",
+            "qué tendencias actuales hay de {country}",
+            "cual es la tendencia en {country}",
+            "cual es la tendencia de {country}",
+            "cual es el trending topic en {country}",
+            "cual es el trending topic de {country}",
+            "cuál es la tendencia en {country}",
+            "cuál es la tendencia de {country}",
+            "cuál es el trending topic en {country}",
+            "cuál es el trending topic de {country}",
+            "cuales son los trending topics en {country}",
+            "cuales son los trending topics de {country}",
+            "cuales son las tendencias en {country}",
+            "cuales son las tendencias de {country}",
+            "cuales son las tendencias de twitter {country}",
+            "cuales son las tendencias actuales en {country}",
+            "cuales son las tendencias actuales de {country}",
+            "cuáles son los trending topics en {country}",
+            "cuáles son los trending topics de {country}",
+            "cuáles son las tendencias en {country}",
+            "cuáles son las tendencias de {country}",
+            "cuáles son las tendencias de twitter {country}",
+            "cuáles son las tendencias actuales en {country}",
+            "cuáles son las tendencias actuales de {country}",
+            "trending topics en {country}",
+            "trending topics de {country}",
+            "trending topic en {country}",
+            "trending topic de {country}",
+            "tendencias de {country}",
+            "tendencias en {country}",
+            "tendencias de twitter en {country}",
+            "tendencias actuales de {country}",
+            "tt de {country}"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "5"
+}

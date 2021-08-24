@@ -1,0 +1,176 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "tendances sur twitter",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.RepeatIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+            "no",
+            "non",
+            "rien d\u0027autre",
+            "rien d\u0027autre",
+            "rien de plus",
+            "au revoir",
+            "dieu",
+            "salut"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "PlayPopularTopicTweets",
+          "slots": [
+            {
+              "name": "topic",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples": [
+            "ce qui est arrivé à {topic}",
+            "que s\u0027est il passé avec {topic}",
+            "recherche {topic}",
+            "recherche sur {topic}",
+            "ce qui a été écrit sur {topic}",
+            "dis moi les tendances sur {topic}",
+            "dites moi les tweets sur {topic}",
+            "dites moi les derniers tweets sur {topic}",
+            "dites moi ce qui est arrivé à {topic}",
+            "parlez moi de {topic}",
+            "dis moi les tweets sur {topic}",
+            "dites moi les derniers tweets sur {topic}",
+            "dis moi les derniers tweets sur {topic}",
+            "parlez-moi de {topic}",
+            "dites-moi les tendances sur {topic}",
+            "parlez moi de {topic}",
+            "dites moi ce qui est arrivé à {topic}",
+            "dites moi les derniers tweets sur {topic}",
+            "dites moi les tweets sur {topic}",
+            "dis moi ce qui est arrivé à {topic}",
+            "dis moi les derniers tweets sur {topic}",
+            "dis moi ce qui est tendance sur {topic}",
+            "dis moi les tweets sur {topic}",
+            "quelles sont les tendances de {topic}",
+            "dites moi les tendances sur {topic}",
+            "dis moi les tendances sur {topic}",
+            "à propos de {topic}",
+            "what\u0027s trending on {topic}",
+            "quoi de neuf sur {topic}",
+            "posts sur {topic}",
+            "tweets sur {topic}",
+            "tendances sur {topic}",
+            "tweets sur {topic}"
+          ]
+        },
+        {
+          "name": "PlayTrendsCountry",
+          "slots": [
+            {
+              "name": "country",
+              "type": "AMAZON.Country"
+            }
+          ],
+          "samples": [
+            "pourquoi ça s\u0027est gâté sur twitter dans {country}",
+            "fait sur twitter dans le {country}",
+            "dire les tendances dans le {country}",
+            "dire les sujets tendances dans le {country}",
+            "dire les sujets tendances de {country}",
+            "dire les sujets tendances en {country}",
+            "dire les sujets d\u0027actualité en vogue dans {country}",
+            "dites moi les tendances dans {country}",
+            "dites moi les sujets tendances en {country}",
+            "dites moi les sujets tendances en {country}",
+            "dites moi les sujets tendances en {country}",
+            "dites moi les sujets d\u0027actualité en {country}",
+            "dites moi les sujets tendances de {country}",
+            "dites moi les sujets tendances de {country}",
+            "dites moi les sujets tendances de {country}",
+            "dites moi les sujets d\u0027actualité de {country}",
+            "dites moi les tendances actuelles dans le {country}",
+            "dites moi les sujets tendances en {country}",
+            "dites moi les sujets d\u0027actualité en {country}",
+            "dites moi les tendances actuelles en {country}",
+            "dites moi les sujets tendances de {country}",
+            "dites moi les sujets d\u0027actualité de {country}",
+            "dites moi les tendances actuelles de {country}",
+            "dis moi les tendances dans {country}",
+            "dis moi les sujets tendances en {country}",
+            "dis moi les sujets tendances en {country}",
+            "dis moi les sujets tendances en {country}",
+            "dis moi les sujets d\u0027actualité en {country}",
+            "dis moi les sujets tendances de {country}",
+            "dis moi les sujets tendances de {country}",
+            "dis moi les sujets tendances de {country}",
+            "dis moi les sujets d\u0027actualité de {country}",
+            "dis moi les tendances actuelles dans le {country}",
+            "dis moi les sujets tendances en {country}",
+            "dis moi les sujets d\u0027actualité en {country}",
+            "dis moi les tendances actuelles en {country}",
+            "dis moi les sujets tendances de {country}",
+            "dis moi les sujets d\u0027actualité de {country}",
+            "dis moi les tendances actuelles de {country}",
+            "quelles sont les tendances actuelles dans le {country}",
+            "quelles sont les tendances actuelles en {country}",
+            "quelles sont les tendances actuelles en {country}",
+            "quelles sont les tendances actuelles en {country}",
+            "quelles sont les tendances actuelles de {country}",
+            "quelles sont les tendances actuelles de {country}",
+            "quelles sont les tendances actuelles de {country}",
+            "quelles sont les tendances en {country}",
+            "quelles sont les tendances en {country}",
+            "quelles sont les tendances en {country}",
+            "quelles sont les tendances de {country}",
+            "quelles sont les tendances de {country}",
+            "quelles sont les tendances de {country}",
+            "quelles sont les tendances actuelles dans le {country}",
+            "quelles sont les tendances actuelles de {country}",
+            "quelles sont les tendances actuelles dans {country}",
+            "quelles sont les tendances actuelles en {country}",
+            "quels sont les sujets tendances sur twitter {country}",
+            "quelles sont les tendances actuelles dans le {country}",
+            "quelles sont les tendances actuelles de {country}",
+            "quels sont les sujets tendances en {country}",
+            "quels sont les sujets d\u0027actualité de {country}",
+            "quels sont les sujets d\u0027actualité en {country}",
+            "quels sont les sujets tendances sur twitter {country}",
+            "quelles sont les tendances actuelles dans le {country}",
+            "quelles sont les tendances actuelles de {country}",
+            "les sujets d\u0027actualité en {country}",
+            "les sujets d\u0027actualité de {country}",
+            "les sujets en vogue dans le {country}",
+            "sujet tendance de {country}",
+            "Les sujets d\u0027actualité dans le country",
+            "les sujets tendances de {country}",
+            "tendances dans le country",
+            "tendances de {country}",
+            "tendances de twitter dans le country",
+            "tendances twitter de {country}",
+            "tendances actuelles de {country}",
+            "tt de {country}"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "12"
+}

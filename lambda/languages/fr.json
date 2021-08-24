@@ -1,0 +1,50 @@
+{
+    "SKILL_NAME": "Tendances sur Twitter",
+    "WELCOME": [
+      " Bienvenue dans les {}. Demandez-moi des tendances spécifiques à un pays ou des tweets sur un sujet. Pour en savoir plus sur ce que je peux faire, essayez de dire aide."
+    ],
+    "ASK": [
+      " En quoi puis-je vous aider?",
+      " Que puis-je faire pour vous?"
+    ],
+    "ASK_MORE": [
+      " Que pouvons-nous faire d'autre?"
+    ],
+    "COUNTRY_TRENDS": [
+      "Les tendances sur Twitter en {} sont: "
+    ],
+    "TOPIC_TWEETS": [
+      "Les tweets les plus pertinents sur {} sont: "
+    ],
+    "SAY": [
+      "dit",
+      "tweets"
+    ],
+    "REPEAT": [
+      "J'ai dit... {}"
+    ],
+    "REPEAT_REPROMPT": [
+      "{}"
+    ],
+    "HELP": [
+    "Essayez de me demander les tendances dans un pays spécifique. Par exemple, quelles sont les tendances en Espagne. Vous pouvez également essayer de me demander les derniers tweets pertinents sur un sujet spécifique. Par exemple, les tendances concernant Messi."
+    ],
+    "HELP_REPROMPT": [
+      "En quoi puis-je vous aider?"
+    ],
+    "REFLECTOR": [
+      "Tu viens d'exécuter {}. Vous obtenez cette réponse parce que l'intention appelée : {}}s n'a pas encore de gestionnaire d'intention."
+    ],
+    "FALLBACK": [
+      "Hmm, je ne suis pas sûr. Essayez de me demander les tendances par pays ou les tweets sur un sujet. Si vous vous trouvez dans l'embarras, demandez de l'aide ou clôturez cette compétence en disant au revoir."
+    ],
+    "FALLBACK_REPROMPT": [
+      "Je ne pouvais pas le comprendre. En quoi puis-je vous aider?"
+    ],
+    "CANCEL_STOP_RESPONSE": [
+      "Au revoir!"
+    ],
+    "ENV_NOT_CONFIGURED": "The environment for this skill is not properly configured. Most likely, you just need to rename the example dot ENV file to just dot ENV. Please see the readme file for help.",
+    "ERROR": "Désolé, quelque chose a mal tourné. Veuillez réessayer ou demander de l'aide.",
+    "ERROR_REPROMPT": "Pouvez-vous répéter cela?"
+}

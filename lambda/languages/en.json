@@ -1,0 +1,52 @@
+{
+    "SKILL_NAME": "Twitter Trends",
+    "WELCOME": [
+      "Welcome to {}. Ask me for country-specific trends or tweets on a topic. To learn more about what I can do, try saying help."
+    ],
+    "ASK": [
+      " What can i do?",
+      " What do you want to do?"
+    ],
+    "ASK_MORE": [
+      " What can i do?",
+      " What do you want to do?"
+    ],
+    "COUNTRY_TRENDS": [
+      "The twitter trends in {} are: "
+    ],
+    "TOPIC_TWEETS": [
+      "The most relevant tweets about {} are: "
+    ],
+    "SAY": [
+      "says",
+      "tweet"
+    ],
+    "REPEAT": [
+      "I said... {}"
+    ],
+    "REPEAT_REPROMPT": [
+      "{}"
+    ],
+    "HELP": [
+      "Try asking me for the trends of a specific country. For example, what are the trends in Spain. Also, you can try asking me for the latest relevant twits on a specific topic. For example, trends about messi."
+    ],
+    "HELP_REPROMPT": [
+      "What can i do?"
+    ],
+    "REFLECTOR": [
+      "You have just executed {}. You are hearing this response because the intent called: {}}s doesn't have a intent handler yet."
+    ],
+    "FALLBACK": [
+      "Hmm, I'm not sure. Try asking me for country-specific trends or twitts on a topic. If you find yourself at a loss, say help or close this skill by saying goodbye."
+     ],
+    "FALLBACK_REPROMPT": [
+      "I didn't get it, what can I help you with?"
+    ],
+    "CANCEL_STOP_RESPONSE": [
+      "Good bye",
+      "Okay. I'll be here if you need me."
+    ],
+    "ENV_NOT_CONFIGURED": "The environment for this skill is not properly configured. Most likely, you just need to rename the example dot ENV file to just dot ENV. Please see the readme file for help.",
+    "ERROR": "Sorry, something was wrong. Repeat or say help",
+    "ERROR_REPROMPT": "Could you say that again?"
+}

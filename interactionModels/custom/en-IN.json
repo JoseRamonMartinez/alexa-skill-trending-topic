@@ -1,0 +1,161 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "twitter trends",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+            "help"
+          ]
+        },
+        {
+          "name": "AMAZON.RepeatIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+            "no",
+            "nothing more",
+            "nothing else",
+            "no more"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "PlayPopularTopicTweets",
+          "slots": [
+            {
+              "name": "topic",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples": [
+            "what happened {topic}",
+            "what happened to {topic}",
+            "what happened with {topic}",
+            "search {topic}",
+            "search about {topic}",
+            "what has been written about {topic}",
+            "tell me the trends on {topic}",
+            "tell me the twits about {topic}",
+            "tell me the latest twits on {topic}",
+            "tell me what happened to {topic}",
+            "tell me about {topic}",
+            "tell me the tweets about {topic}",
+            "tell me the latest tweets on {topic}",
+            "tell me about {topic}",
+            "tell me the trends about {topic}",
+            "tell me the trends on {topic}",
+            "tell me about {topic}",
+            "tell me what happened to {topic}",
+            "tell me the latest tweets about {topic}",
+            "tell me the tweets about {topic}",
+            "what are the trends on {topic}",
+            "tell me the trends on {topic}",
+            "about {topic}",
+            "what\u0027s trending on {topic}",
+            "what\u0027s up on {topic}",
+            "posts about {topic}",
+            "tweets about {topic}",
+            "trends on {topic}",
+            "trends about {topic}",
+            "tweets about {topic}"
+          ]
+        },
+        {
+          "name": "PlayTrendsCountry",
+          "slots": [
+            {
+              "name": "country",
+              "type": "AMAZON.Country"
+            }
+          ],
+          "samples": [
+            "why it\u0027s been messed up on twitter in {country}",
+            "made out on twitter in {country}",
+            "say the trends in {country}",
+            "say the trending topics in {country}",
+            "say the trending topic of {country}",
+            "say the current trending topics in {country}",
+            "tell me the trends in {country}",
+            "tell me the trending topics in {country}",
+            "tell me the trending topics of {country}",
+            "tell me the trending topic in {country}",
+            "tell me the trending topic of {country}",
+            "tell me the current trending topics in {country}",
+            "tell me the current trending topics of {country}",
+            "tell me the trending topics in {country}",
+            "tell me the trending topics of {country}",
+            "tell me the current trending topics in {country}",
+            "tell me the current trending topics of {country}",
+            "what\u0027s trending in {country}",
+            "what\u0027s trending of {country}",
+            "what\u0027s trending on twitter {country}",
+            "what are the current trends in {country}",
+            "what are the current trends of {country}",
+            "what current trends are there of {country}",
+            "what current trends are there from {country}",
+            "what trends are trending in {country}",
+            "what trends are trending of {country}",
+            "what trends are there from {country}",
+            "what\u0027s trending on twitter {country}",
+            "what current trends are trending in {country}",
+            "what current trends are trending of {country}",
+            "what are the current trends in {country}",
+            "what are the current trends of {country}",
+            "what is trending in {country}",
+            "what is trending of {country}",
+            "what is the trending topic in {country}",
+            "what is the trending topic of {country}",
+            "what is the trending topic in {country}",
+            "what is trending in {country}",
+            "what is the trending topic in {country}",
+            "what is the trending topic of {country}",
+            "what are the trending topics in {country}",
+            "what are the trending topics of {country}",
+            "what are the trending topics on twitter {country}",
+            "what are the current trends in {country}",
+            "what are the current trends of {country}",
+            "what are the trending topics in {country}",
+            "what are the trending topics of {country}",
+            "what are the trending topics in {country}",
+            "what are the trending topics of {country}",
+            "what are the trending topics on twitter {country}",
+            "what are the current trends in {country}",
+            "what are the current trends of {country}",
+            "trending topics in {country}",
+            "trending topics of {country}",
+            "trending topic in {country}",
+            "trending topic of {country}",
+            "trending topics in {country}",
+            "trending topics of {country}",
+            "trends on {country}",
+            "trends in {country}",
+            "trends of {country}",
+            "twitter trends in {country}",
+            "twitter trends of {country}",
+            "current trends of {country}",
+            "current trends in {country}",
+            "tt from {country}",
+            "tt of {country}"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "14"
+}
