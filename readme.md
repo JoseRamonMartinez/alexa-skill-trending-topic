@@ -1,5 +1,5 @@
 <h3 align="center">ALEXA SKILL</h3>
-<h1 align="center">TWITTER TRENDS<h1>
+<h1 align="center">TRENDING TOPIC<h1>
 <p align="center">
     <img src="https://github.com/JoseRamonMartinez/AlexaTwitterTrends/blob/master/assets/images/en-US_largeIconUri.png">
 </p>
@@ -13,17 +13,16 @@
 
 ## Description 📢
 
-With the Twitter Trends skill, you can check the twitter trending topic in real time, either from your country or from another one. In addition, you can check the most relevant tweets that people are writing about a specific topic.
+With the Trending Topic skill, you can check the twitter trending topic in real time, either from your country or from another one. In addition, you can check the most relevant tweets that people are writing about a specific topic.
 
-With Twitter Trends you will be always up to date, informed about the most relevant news in your country and knowing what people think on twitter about any topic.
+With Trending Topic you will be always up to date, informed about the most relevant news in your country and knowing what people think on twitter about any topic.
 
 ## Language 📖
 
 | Language      | Skill Title |
 | ------ | :------|
-| **English** | Twitter Trends  |
-| **Spanish**   |  Tendencias de Twitter  |
-| **French**   |   Tendancer sur twitter |
+| **English** | Trending Topic  |
+| **Spanish**   |  Tendencias de actualidad |
 
 ## Start 🚀
 

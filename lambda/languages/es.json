@@ -1,5 +1,5 @@
 {
-    "SKILL_NAME": "Tendencias de Twitter",
+    "SKILL_NAME": "Tendencias de Actualidad",
     "WELCOME": [
       " Bienvenido a {}. Pídeme las tendencias de un país específico o tweets sobre un tema. Para conocer más sobre lo que puedo hacer, prueba a decir ayuda."
     ],

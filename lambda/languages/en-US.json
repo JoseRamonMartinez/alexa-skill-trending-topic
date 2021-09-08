@@ -1,5 +1,5 @@
 {
-    "SKILL_NAME": "Twitter Trends",
+    "SKILL_NAME": "Trending Topic",
     "WELCOME": [
       "Welcome to {}. Ask me for country-specific trends or tweets on a topic. To learn more about what I can do, try saying help."
     ],

@@ -1,7 +1,7 @@
 {
   "interactionModel": {
     "languageModel": {
-      "invocationName": "twitter trends",
+      "invocationName": "trending topic",
       "intents": [
         {
           "name": "AMAZON.CancelIntent",
@@ -50,6 +50,7 @@
             "search about {topic}",
             "what has been written about {topic}",
             "tell me the trends on {topic}",
+            "tell me the trends of {topic}",
             "tell me the twits about {topic}",
             "tell me the latest twits on {topic}",
             "tell me what happened to {topic}",
@@ -91,16 +92,19 @@
             "say the trending topic of {country}",
             "say the current trending topics in {country}",
             "tell me the trends in {country}",
+            "tell me the trends on {country}",
+            "tell me the trends of {country}",
             "tell me the trending topics in {country}",
+            "tell me the trending topics on {country}",
             "tell me the trending topics of {country}",
             "tell me the trending topic in {country}",
+            "tell me the trending topic on {country}",
             "tell me the trending topic of {country}",
             "tell me the current trending topics in {country}",
             "tell me the current trending topics of {country}",
-            "tell me the trending topics in {country}",
-            "tell me the trending topics of {country}",
             "tell me the current trending topics in {country}",
             "tell me the current trending topics of {country}",
+            "what\u0027s trending on {country}",
             "what\u0027s trending in {country}",
             "what\u0027s trending of {country}",
             "what\u0027s trending on twitter {country}",
@@ -157,5 +161,5 @@
       "types": []
     }
   },
-  "version": "14"
+  "version": "26"
 }

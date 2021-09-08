@@ -70,7 +70,7 @@ class PlayTrendsCountryHandler(AbstractRequestHandler):
         
         speech_output = random.choice(language_prompts["COUNTRY_TRENDS"]).format(country)
         for i in range(0,10):
-            speech_output+=f'{i+1}, {trends_list[i]}.'
+            speech_output+=f'{i+1}, {trends_list[i]}. '
         reprompt = random.choice(language_prompts["ASK_MORE"])
         
         return(
@@ -95,7 +95,7 @@ class PlayPopularTopicTweetsHandler(AbstractRequestHandler):
         topic_tweets=popular_topic_tweets(topic, language_request).copy()
         speech_output = random.choice(language_prompts["TOPIC_TWEETS"]).format(topic)
         for i in topic_tweets: 
-            speech_output+= f'{i} {random.choice(language_prompts["SAY"])}; {topic_tweets[i]} '
+            speech_output+= f'{i} {random.choice(language_prompts["SAY"])}; {topic_tweets[i]}. '
         reprompt = random.choice(language_prompts["ASK_MORE"])
         return(
             handler_input.response_builder

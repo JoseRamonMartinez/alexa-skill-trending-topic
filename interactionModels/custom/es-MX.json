@@ -1,7 +1,7 @@
 {
   "interactionModel": {
     "languageModel": {
-      "invocationName": "tendencias de twitter",
+      "invocationName": "tendencias de actualidad",
       "intents": [
         {
           "name": "AMAZON.CancelIntent",
@@ -168,5 +168,5 @@
       "types": []
     }
   },
-  "version": "4"
+  "version": "6"
 }
