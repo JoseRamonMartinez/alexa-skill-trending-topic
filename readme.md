@@ -9,7 +9,7 @@
 
 
 
-**[Can be activated from the Alexa Skill Store 🚀](https://master.d3rcpd8urehahf.amplifyapp.com/login)**
+**[Can be activated from the Alexa Skill Store 🚀](https://www.amazon.es/Jose-Ramon-Martinez-Riveiro-Tendencias/dp/B09FQXY379/ref=sr_1_1?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dchild=1&keywords=tendencias+de+actualidad&qid=1631447002&s=digital-skills&sr=1-1)**
 
 ## Description 📢
 
