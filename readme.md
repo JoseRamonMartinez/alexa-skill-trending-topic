@@ -35,10 +35,10 @@ _The following instructions permit to create a skill clone._
 3. Rename the **example.env** to **.env** and add your twitter api access keys
 
 
-## Autor ✒️
+## Author ✒️
 
 - **_José Ramón Martínez Riveiro_ - [Linkedin](https://www.linkedin.com/in/josermartinez/?originalSubdomain=es)**
 
-## Licencia 📄
+## License 📄
 
 Este proyecto está bajo la Licencia [Creative Commons (BY-NC-ND)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
